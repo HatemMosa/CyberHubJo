@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberHubJo | Under Construction</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: radial-gradient(circle at top left, #0f172a, #000);
+    }
+    .glow-text {
+      text-shadow: 0 0 8px rgba(0,255,255,0.7), 0 0 16px rgba(0,255,255,0.5);
+    }
+    .cyber-glow {
+      animation: pulse 2s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.6; }
+      50% { opacity: 1; }
+      100% { opacity: 0.6; }
+    }
+  </style>
+</head>
+<body class="flex flex-col items-center justify-center h-screen text-white font-mono px-4">
+  <div class="text-center">
+    <h1 class="text-5xl md:text-6xl font-bold glow-text mb-4">CyberHubJo</h1>
+    <p class="text-xl md:text-2xl text-cyan-300 mb-2 cyber-glow">Academic Research in Cybersecurity</p>
+    <p class="text-md md:text-lg text-gray-400 mb-8">Our website is currently under construction. We’ll be live soon!</p>
+
+    <div class="mb-6">
+      <svg class="w-24 h-24 mx-auto animate-spin text-cyan-400" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-30" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-100" fill="currentColor" d="M4 12a8 8 0 018-8v4l5-5-5-5v4a10 10 0 00-10 10h4z"></path>
+      </svg>
+    </div>
+
+    <div class="text-sm text-gray-500">
+      Visit us soon at  
+      <a href="https://cyberhubjo.com" target="_blank" class="text-cyan-400 hover:underline">cyberhubjo.com</a>
+    </div>
+  </div>
+
+  <footer class="absolute bottom-4 text-xs text-gray-600">
+    © 2025 CyberHubJo Research Group. All rights reserved.
+  </footer>
+</body>
+</html>
